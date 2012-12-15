@@ -1,9 +1,9 @@
 {
-  "name": "mongo-rest",
+  "name": "mongo-connect",
   "description": "REST API Server for MongoDB",
   "version": "0.0.1",
   "author": "Phongphun Kijsanayothin <kphongph@gmail.com>",
-  "main":"lib/mongo-rest.js",
+  "main":"lib/mongo-connect.js",
   "dependencies": { 
     "express": "*", 
     "mongodb": "*", 
@@ -17,7 +17,7 @@
     "web", 
     "rest", 
     "restful"],
-  "repository": "git://github.com/kphongph/mongodb-rest",
+  "repository": "git://github.com/kphongph/mongodb-connect",
   "engines": { 
     "node": ">= 0.4.4" 
   }

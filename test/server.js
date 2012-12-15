@@ -1,7 +1,7 @@
 var express = require('express');
-var mongo_rest = require('../lib/mongo-rest.js');
+var mongo_con = require('../lib/mongo-connect.js');
 
-var mongo = mongo_rest.Mongo({
+var mongo = mongo_con.Mongo({
   host:'10.10.20.75',
   db:'test'
 });

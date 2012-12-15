@@ -1,0 +1,24 @@
+{
+  "name": "mongo-rest",
+  "description": "REST API Server for MongoDB",
+  "version": "0.0.0",
+  "author": "Phongphun Kijsanayothin <kphongph@gmail.com>",
+  "main":"lib/mongo-rest.js",
+  "dependencies": { 
+    "express": "*", 
+    "mongodb": "*", 
+    "generic-pool" :"*",
+    "log4js" :"*"
+  },
+  "keywords": [
+    "mongodb", 
+    "mongo", 
+    "db", 
+    "web", 
+    "rest", 
+    "restful"],
+  "repository": "git://github.com/kphongph/mongodb-rest",
+  "engines": { 
+    "node": ">= 0.4.4" 
+  }
+}

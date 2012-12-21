@@ -15,6 +15,8 @@ app.configure(function() {
 });
 
 app.get('/query/:collection', mongo.query);
+app.post('/db/:collection', mongo.query);
+
 app.post('/query/:collection', mongo.insert);
 app.put('/query/:collection/:id', mongo.update);
 app.del('/query/:collection/:id', mongo.delete);
